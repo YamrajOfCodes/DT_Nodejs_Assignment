@@ -185,7 +185,7 @@ const getEvent = async(req,res) =>{
     res.status(500).json({ error: "An error occurred while updating the document" });
 }
 
-   
+     // Insted of using built in functions of mongoDb method I tried to achieve these with my own method 
 }
 
 
